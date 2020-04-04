@@ -133,4 +133,8 @@ ani = animation.FuncAnimation(fig, animate, frames=101,
                               interval=100, blit=True,
                               init_func=init, repeat=False)
 
+# Uncomment next two lines to write file to disk.
+#pwriter = animation.PillowWriter(fps=5, metadata=dict(artist='Dr. Ryan Clement'))
+#ani.save('../movies/bouncing_balls.gif',writer=pwriter)
+
 plt.show()
