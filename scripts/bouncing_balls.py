@@ -3,7 +3,7 @@
 Created: Apr 2020
 Classy Bouncing Balls!
 
-@author: Warlock
+@author: Ryan Clement (RRCC)
 """
 
 import random
