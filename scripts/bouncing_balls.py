@@ -41,7 +41,7 @@ class Ball:
         """ Leapfrog Integration Scheme for Gravity (2nd Order) """
         # Y
         self.y += self.vy*Ball.dt + Ball.ay*(Ball.dt*Ball.dt)/2.0
-        self.vy += Ball.ay*Ball.dt/2.0
+        self.vy += Ball.ay*Ball.dt
         if( self.y < Ball.boxD ):
             self.y = Ball.boxD + Ball.offset
             self.vy *= -1.0
