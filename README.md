@@ -1,5 +1,5 @@
 # BB
-Bouncing Balls in a box that don't interact with each other.
+Bouncing Balls in a box with gravity that don't interact with each other but do interact with the walls.
 
 ## REQUIREMENTS
 I used Anaconda3 and therefore Python3.X. To run the python script you will need the __random, numpy, math, and matplotlib__ packages. These are included with the Anaconda distribution.
